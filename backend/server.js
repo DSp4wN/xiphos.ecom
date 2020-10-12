@@ -14,10 +14,10 @@ mongoose.connect(mongodburl,{
     useCreateIndex: true
 }).catch(error => console.log(error.reason));
 
-const app = express();
+const app = express(); 
 
 app.use(bodyParser.json());
-app.use("/api/users",userRoute);
+app.use("/api/users",userRoute);  
 
 app.get("/api/products/:id",(req, res) => {
     const productId = req.params.id;
