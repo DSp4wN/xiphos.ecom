@@ -59,11 +59,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/parkar2312/my-website.git"
+    "url": "git+https://github.com/parkar2312/xiphos.ecom.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/parkar2312/my-website/issues"
+    "url": "https://github.com/parkar2312/xiphos.ecom/issues"
   }
 }
